@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for ims-backend on 2026-06-08T18:03:07Z
+# fly.toml app configuration file generated for ims-backend-tranquil-mountain-4123 on 2026-06-08T12:17:09-06:00
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'ims-backend'
+app = 'ims-backend-tranquil-mountain-4123'
 primary_region = 'dfw'
 
 [build]
@@ -17,7 +17,6 @@ primary_region = 'dfw'
   processes = ['app']
 
 [[vm]]
-  memory = '1gb'
-  cpu_kind = 'shared'
+  memory = '256mb'
   cpus = 1
   memory_mb = 256
